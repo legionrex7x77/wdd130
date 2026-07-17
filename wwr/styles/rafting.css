@@ -8,11 +8,6 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -24,10 +19,14 @@ body {
     color: var(--accent1-color);
 }
 
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
 header,
 main,
 footer {
-
     width: 840px;
     margin: 0 auto;
 }
@@ -60,7 +59,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;

@@ -3,10 +3,7 @@
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
-
     --white-color: #ffffff;
-    --overlay-bg: #264653cc;
-    --article-bg: #f4a261e6;
 
     --heading-font: Georgia, "Times New Roman", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -88,8 +85,9 @@ nav a:hover {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: var(--overlay-bg);
+    background-color: var(--accent1-color);
     color: var(--white-color);
+    opacity: 0.8;
 }
 
 .hero article {
@@ -97,7 +95,7 @@ nav a:hover {
     bottom: 30px;
     left: 40px;
     right: 40px;
-    background-color: var(--article-bg);
+    background-color: var(--secondary-color);
     padding: 15px;
     color: var(--accent1-color);
 }

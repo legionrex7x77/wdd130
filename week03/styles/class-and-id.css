@@ -1,34 +1,45 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     line-height: 1.6;
-    margin: 0;
-    padding: 0 40px;
+    color: #333;
 }
 
 h1 {
-    border-bottom: 1px solid rgb(0 110 182);
-    padding-bottom: 0;
-}
-
-
-
-p {
-    margin: 0;
+    color: #2c3e50;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
 }
 
 code {
-    color: darkgreen;
-    font-weight: 700;
-    font-size: 1.4rem;
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: #d63384;
 }
 
-/* Class examples - can be reused */
+pre {
+    background-color: #2b2b2b;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+pre code {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+}
 
 .box {
     margin: 20px 0;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px;
-    background-color: #ddd; /* this is shorthand for #dddddd */
+    background-color: #ddd;
 }
 
 .highlight {
@@ -37,22 +48,20 @@ code {
     padding: 25px;
 }
 
-/* ID examples - should be unique */
-
 #note {
     background-color: #333;
     color: white;
     width: fit-content;
-}
+    padding: 10px;
 
-#note code {
-    color: yellow;
+    margin: 10px 0;
 }
 
 #best-practice {
-    background: linear-gradient(135deg, #000 0%, #999 100%);
-    color: white;
-    border-radius: 20px;
-    padding: 20px
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin-top: 30px;
 }
-
